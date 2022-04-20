@@ -5,7 +5,8 @@
 * Execute `sudo ./install.sh` 
 * Reboot
 * Execute `sudo crontab -e`
-* Type `@reboot /path/to/startup_script.sh`
+* Add `@reboot /path/to/startup_script.sh` at the end of the file
+* Press `CTRL` + `X` to save changes
 * Reboot
 
 You can tweak the fan speeds within the python script `set_fan_curve.py`.
