@@ -5,7 +5,8 @@
 * Execute `sudo ./install.sh` 
 * Reboot
 * Execute `sudo crontab -e`
-* Add `@reboot /path/to/startup_script.sh` at the end of the file
+* Add `@reboot python3 '/path/to/set_fan_curve.py' > /dev/null 2>&1
+` at the end of the file
 * Press `CTRL` + `X` to save changes
 * Reboot
 

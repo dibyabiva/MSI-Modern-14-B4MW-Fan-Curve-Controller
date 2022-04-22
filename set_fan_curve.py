@@ -2,8 +2,8 @@ import time
 
 ec_filename = "/sys/kernel/debug/ec/ec0/io" 
 
-gpu_fan_speeds = [60, 100, 150, 150, 150, 150] # Fan speeds(0% - 150%) for lowest to highest temperatures
-cpu_fan_speeds = [60, 100, 150, 150, 150, 150] # Fan speeds(0% - 150%) for lowest to highest temperatures
+gpu_fan_speeds = [60, 80, 100, 120, 150, 150] # Fan speeds(0% - 150%) for lowest to highest temperatures
+cpu_fan_speeds = [60, 80, 100, 120, 150, 150] # Fan speeds(0% - 150%) for lowest to highest temperatures
 
 trial_number = 1
 while(True):
