@@ -1,6 +1,6 @@
 # Modern-14-B4MW-Fan-Curve-Controller
 
-### This is a small script to control fan speeds via the embedded controller in this specific laptop model in Ubuntu 20.04.4
+### This is a small script to control fan speeds via the embedded controller in this specific laptop model in Ubuntu 22.04.5
 
 * Execute `sudo ./install.sh` 
 * Reboot
